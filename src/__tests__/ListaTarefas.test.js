@@ -3,7 +3,7 @@ import ToDoList from '../components/ToDoList/ListaTarefas'
 import React from 'react'
 
 describe('ToDoList', () => {
-  test(' renderiza input e botão corretamente', () => {
+  test('renderiza input e botão corretamente', () => {
     render(<ToDoList />)
     const input = screen.getByPlaceholderText('Nova tarefa')
     const button = screen.getByText('Adicionar')
