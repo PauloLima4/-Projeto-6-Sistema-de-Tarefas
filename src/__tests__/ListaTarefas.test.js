@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react'
-import ToDoList from '../components/ToDoList/ListaTarefas'
+import ToDoList from '../components/ListaTarefas'
 import React from 'react'
 
 describe('ToDoList', () => {
